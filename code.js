@@ -3,6 +3,8 @@
 // make sure you allow all pop-ups from usis in that case.
 
 // USIS -> Attendance -> Set year, semester and course -> run script.
+// Developer Tools -> Console -> Paste Code -> Enter
+// or
 // Developer Tools -> Sources -> Left Pane (may be hidden) -> Snippets -> New Snipptes -> Paste code.
 
 
@@ -19,7 +21,7 @@ function sleep(ms) {
 async function download_section_attendance_sheet(delay){
 
     for (let i=1; i<section_select.length; i++){
-        console.log("Downloading section: ", i, "...");
+        console.log("Downloading section: ", section_select.options[i].text, "...");
         
         section_select.selectedIndex = i;
         
