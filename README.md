@@ -4,7 +4,7 @@ This is intended for coordinates maintaining a lot of course-sections.
 Repeatedly downloading attendance sheets for each individual section can be a bit painful. 
 This script is here to automate that for you.
 
-Log into `USIS`, then go to the `Attendance` tab and select either `(before confirmation)` or `(after confirmation)`.
+Log into `USIS`, then go to the `Attendance` tab and select `Exam Attendance Sheet(After Confirmation)`.
 Select academic year, semster and course. 
 Then run this script.
 
